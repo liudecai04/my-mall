@@ -31,8 +31,8 @@ export default {
   },
   methods: {
     itemClick(num) {
-        this.currentIndex = num;
-        this.$emit("tabClick",num)
+      this.currentIndex = num;
+      this.$emit("tabClick", num);
     },
   },
 };
